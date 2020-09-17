@@ -1,5 +1,5 @@
-	Class BigInteger{
-  public static String add(String s1,String s2){
+Class BigInteger{
+	public static String add(String s1,String s2){
 		StringBuilder sb = new StringBuilder();
 		int carry = 0;
 		if(s2.length() > s1.length()){
@@ -21,7 +21,7 @@
 		if(carry > 0)
 			sb.append("1");
 		return sb.reverse().toString();
-		
+
 	}
 
 	public static String substract(String s1,String s2){
