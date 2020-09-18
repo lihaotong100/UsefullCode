@@ -1,4 +1,4 @@
-Class BigInteger{
+class BigInteger{
 	public static String add(String s1,String s2){
 		StringBuilder sb = new StringBuilder();
 		int carry = 0;
